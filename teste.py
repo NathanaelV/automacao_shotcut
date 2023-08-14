@@ -1,0 +1,5 @@
+nome = input('Nome do aluno: ')
+n1 = int(input('Nota da prova: '))
+n2 = int(input('Nota do trabalho: '))
+media = input((n1 + n2)/2)
+print('Sendo a nota da prova {} e a nota do trabalho {} a Méida final de {} é {}'.format(n1, n2, nome, media))
